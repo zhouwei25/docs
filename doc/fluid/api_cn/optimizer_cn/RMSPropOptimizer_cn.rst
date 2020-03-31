@@ -35,7 +35,9 @@ RMSPropOptimizer
     - **epsilon** （float，可选） - 等式中的epsilon是平滑项，避免被零除，默认值1e-6。
     - **momentum** （float，可选） - 方程中的β是动量项，默认值0.0。
     - **centered** （bool，可选） - 如果为True，则通过梯度的估计方差,对梯度进行归一化；如果False，则由未centered的第二个moment归一化。将此设置为True有助于模型训练，但会消耗额外计算和内存资源。默认为False。
-    - **regularization**  - 正则器项，如 ``fluid.regularizer.L2DecayRegularizer`` 。
+    - **regularization** (WeightDecayRegularizer，可选) - 正则化方法。支持两种正则化策略: :ref:`cn_api_fluid_regularizer_L1Decay` 、 
+    :ref:`cn_api_fluid_regularizer_L2Decay` ，如果在 :ref:`cn_api_fluid_ParamAttr` 中同时设置了正则化，这里的设置将不生效，
+    因为 ``ParamAttr`` 中的正则化具有更高的优先级。默认值为None，表示没有正则化。
     - **name** (str, 可选) - 可选的名称前缀，一般无需设置，默认值为None。
     
 抛出异常:

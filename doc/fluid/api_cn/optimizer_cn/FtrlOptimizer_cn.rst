@@ -34,7 +34,9 @@ FTRL 原始论文: ( `https://www.eecs.tufts.edu/~dsculley/papers/ad-click-predi
   - **l1** (float，可选) - L1 regularization strength，默认值0.0。
   - **l2** (float，可选) - L2 regularization strength，默认值0.0。
   - **lr_power** (float，可选) - 学习率降低指数，默认值-0.5。
-  - **regularization** - 正则化器，例如 ``fluid.regularizer.L2DecayRegularizer`` 。
+  - **regularization** (WeightDecayRegularizer，可选) - 正则化方法。支持两种正则化策略: :ref:`cn_api_fluid_regularizer_L1Decay` 、 
+  :ref:`cn_api_fluid_regularizer_L2Decay` ，如果在 :ref:`cn_api_fluid_ParamAttr` 中同时设置了正则化，这里的设置将不生效，
+  因为 ``ParamAttr`` 中的正则化具有更高的优先级。默认值为None，表示没有正则化。
   - **name** (str, 可选) - 可选的名称前缀，一般无需设置，默认值为None。
 
 抛出异常：

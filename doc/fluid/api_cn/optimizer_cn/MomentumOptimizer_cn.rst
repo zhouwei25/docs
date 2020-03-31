@@ -20,7 +20,9 @@ MomentumOptimizer
     - **momentum** (float) - 动量因子。
     - **parameter_list** (list, 可选) - 指定优化器需要优化的参数。在动态图模式下必须提供该参数；在静态图模式下默认值为None，这时所有的参数都将被优化。
     - **use_nesterov** (bool，可选) - 赋能牛顿动量，默认值False。
-    - **regularization** - 正则化函数，，例如 :code:`fluid.regularizer.L2DecayRegularizer`，默认值None。
+    - **regularization** (WeightDecayRegularizer，可选) - 正则化方法。支持两种正则化策略: :ref:`cn_api_fluid_regularizer_L1Decay` 、 
+    :ref:`cn_api_fluid_regularizer_L2Decay` ，如果在 :ref:`cn_api_fluid_ParamAttr` 中同时设置了正则化，这里的设置将不生效，
+    因为 ``ParamAttr`` 中的正则化具有更高的优先级。默认值为None，表示没有正则化。
     - **name** (str, 可选) - 可选的名称前缀，一般无需设置，默认值为None。
 
 **代码示例**：
