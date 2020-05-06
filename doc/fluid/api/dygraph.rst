@@ -14,7 +14,6 @@ fluid.dygraph
     dygraph/Conv3DTranspose.rst
     dygraph/CosineDecay.rst
     dygraph/DataParallel.rst
-    dygraph/declarative.rst
     dygraph/disable_dygraph.rst
     dygraph/Dropout.rst
     dygraph/dygraph_to_static_code.rst
@@ -25,17 +24,20 @@ fluid.dygraph
     dygraph/enable_dygraph.rst
     dygraph/enabled.rst
     dygraph/ExponentialDecay.rst
+    dygraph/FC.rst
     dygraph/grad.rst
     dygraph/GroupNorm.rst
+    dygraph/GRUCell.rst
     dygraph/GRUUnit.rst
     dygraph/guard.rst
-    dygraph/InstanceNorm.rst
     dygraph/InverseTimeDecay.rst
     dygraph/Layer.rst
     dygraph/LayerList.rst
     dygraph/LayerNorm.rst
     dygraph/Linear.rst
     dygraph/load_dygraph.rst
+    dygraph/load_persistables.rst
+    dygraph/LSTMCell.rst
     dygraph/NaturalExpDecay.rst
     dygraph/NCE.rst
     dygraph/no_grad.rst
@@ -47,10 +49,14 @@ fluid.dygraph
     dygraph/Pool2D.rst
     dygraph/PRelu.rst
     dygraph/prepare_context.rst
-    dygraph/ProgramTranslator.rst
+    dygraph/RowConv.rst
     dygraph/save_dygraph.rst
+    dygraph/save_persistables.rst
+    dygraph/SequenceConv.rst
     dygraph/Sequential.rst
     dygraph/SpectralNorm.rst
+    dygraph/start_gperf_profiler.rst
+    dygraph/stop_gperf_profiler.rst
     dygraph/to_variable.rst
     dygraph/TracedLayer.rst
     dygraph/Tracer.rst

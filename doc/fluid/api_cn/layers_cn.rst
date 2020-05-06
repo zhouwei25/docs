@@ -217,6 +217,7 @@ fluid.layers
     layers_cn/reciprocal_cn.rst
     layers_cn/reduce_all_cn.rst
     layers_cn/reduce_any_cn.rst
+    layers_cn/reduce_lr_on_plateau_cn.rst
     layers_cn/reduce_max_cn.rst
     layers_cn/reduce_mean_cn.rst
     layers_cn/reduce_min_cn.rst
