@@ -86,7 +86,7 @@ Tensor: generated_tensor_3
 ```
 上述不同rank的**Tensor**可以可视化的表示为：
 
-<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Tensor_2.0.png?raw=true" width="600"></center>
+<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Tensor_2.0.png?raw=true" width="800"></center>
 <br><center>图1 不同rank的Tensor可视化表示</center>
 
 
@@ -121,7 +121,7 @@ CompleTensor[imag]: generated_tensor_0.real
 如果检测到输入数据包含complex numbers，则会自动创建一个**ComplexTensor**，**ComplexTensor**是Paddle中一种特殊的数据结构，
 其包含实部（real）与虚部（imag）两个形状与数据类型相同的**Tensor**，其结构可视化表示为：
 
-<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/ComplexTensor_2.0.png?raw=true" width="600" ></center>
+<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/ComplexTensor_2.0.png?raw=true" width="800" ></center>
 <br><center>图2 ComplexTensor的可视化表示</center>
 
 **Tensor**必须形状规则，类似于“矩形”的概念，也就是，沿任何一个轴（也称作维度）上，元素的数量都是相等的，如果为以下情况：
@@ -172,7 +172,7 @@ paddle.linspace(start, end, num) # 创建从start到end，元素个数固定为
 rank_4_tensor = paddle.ones([2, 3, 4, 5])
 ```
 
-<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Axis_2.0.png?raw=true" width="600" ></center>
+<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Axis_2.0.png?raw=true" width="800" ></center>
 <br><center>图3 Tensor的shape、axis、dimension、rank之间的关系</center>
 
 ```python
@@ -304,6 +304,7 @@ Tensor flattened to Vector: [1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 1
 
 ----------
 ## <h2 id="3">Tensor其他属性</h2>
+Tensor还有例如dtype，place，name的一些其他属性。
 ### Tensor的dtype
 
 **Tensor**的数据类型，可以通过 Tensor.dtype 来查看，dtype支持：'bool'，'float16'，'float32'，'float64'，'uint8'，'int8'，'int16'，'int32'，'int64'。

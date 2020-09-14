@@ -83,7 +83,7 @@ Tensor: generated_tensor_3
 ```
 The visual representation of the **Tensor* above is:
 
-<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Tensor_2.0.png?raw=true" width="600" ></center>
+<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Tensor_2.0.png?raw=true" width="800" ></center>
 <br><center>Figure1. Visual representation of Tensor with different ranks</center>
 
 
@@ -117,7 +117,7 @@ CompleTensor[imag]: generated_tensor_0.real
 ```
 If the input data contains complex Number, a **ComplexTensor** is automatically created. **ComplexTensor** is a special data structure in Paddle. **ComplexTensor** consists of two **Tensor**, one is real part and the other is  imaginary part. **ComplexTensor** can be visualized as follows:
 
-<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/ComplexTensor_2.0.png?raw=true" width="600" ></center>
+<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/ComplexTensor_2.0.png?raw=true" width="800" ></center>
 <br><center>Figure2. Visual representation of ComplexTensor</center>
 
 **Tensor** must be "rectangular" -- that is, along each axis, every element is the same size. For example:
@@ -170,7 +170,7 @@ Let we create a 4-D **Tensor**, and visualize it to represents the relationship 
 rank_4_tensor = paddle.ones([2, 3, 4, 5])
 ```
 
-<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Axis_2.0.png?raw=true" width="600" ></center>
+<center><img src="https://github.com/PaddlePaddle/FluidDoc/blob/develop/doc/paddle/guides/images/Axis_2.0.png?raw=true" width="800" ></center>
 <br><center>Figure3. The relationship between Tensor shape, axis, dimension and rank</center>
 
 ```python
@@ -304,7 +304,7 @@ Tensor flattened to Vector: [1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 1
 
 ----------
 ## <h2 id="3">Other attributes of Tensor</h2>
-
+Tensor also have some other attributes, such as dtype, place, name.
 ### dtype of Tensor
 
 data type of **Tensor**, which can be get from Tensor.dtype, it support 'bool', 'float16', 'float32', 'float64','uint8', 'int8', 'int16', 'int32', 'int64'.
