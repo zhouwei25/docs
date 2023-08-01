@@ -12,7 +12,7 @@ torch.special.polygamma(n, input, *, out=None)
 paddle.polygamma(x, n, name=None)
 ```
 
-其中 Pytorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

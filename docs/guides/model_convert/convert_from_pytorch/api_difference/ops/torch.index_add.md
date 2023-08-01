@@ -11,7 +11,7 @@ torch.index_add(input, dim, index, source, *, alpha=1, out=None)
 paddle.index_add(x, index, axis, value, name=None)
 ```
 
-其中 Pytorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 ### 参数映射
 | PyTorch       | PaddlePaddle | 备注                                                   |
 | ------------- | ------------ | ------------------------------------------------------ |

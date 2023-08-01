@@ -12,7 +12,7 @@ torch.Tensor.to(dtype, non_blocking=False, copy=False, memory_format=torch.prese
 paddle.Tensor.cast(dtype)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 
@@ -37,7 +37,7 @@ torch.Tensor.to(device=None, dtype=None, non_blocking=False, copy=False, memory_
 paddle.Tensor.cast(dtype)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 
@@ -76,7 +76,7 @@ torch.Tensor.to(other, non_blocking=False, copy=False)
 paddle.Tensor.cast(dtype)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

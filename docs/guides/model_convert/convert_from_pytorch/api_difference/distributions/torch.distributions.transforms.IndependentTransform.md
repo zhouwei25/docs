@@ -12,7 +12,7 @@ torch.distributions.transforms.IndependentTransform(base_transform, reinterprete
 paddle.distribution.IndependentTransform(base, reinterpreted_batch_rank)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

@@ -12,7 +12,7 @@ torch.concat(tensors, dim=0, *, out=None)
 paddle.concat(x, axis=0, name=None)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

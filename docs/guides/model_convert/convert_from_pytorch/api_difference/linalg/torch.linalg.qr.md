@@ -12,7 +12,7 @@ torch.linalg.qr(A, mode='reduced', *, out=None)
 paddle.linalg.qr(x, mode='reduced', name=None)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

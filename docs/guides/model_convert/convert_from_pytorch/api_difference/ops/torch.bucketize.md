@@ -11,7 +11,7 @@ torch.bucketize(input, boundaries, *, out_int32=False, right=False, out=None)
 paddle.bucketize(x, sorted_sequence, out_int32=False, right=False, name=None)
 ```
 
-其中 Pytorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 ### 参数映射
 | PyTorch       | PaddlePaddle | 备注                                                   |
 | ------------- | ------------ | ------------------------------------------------------ |

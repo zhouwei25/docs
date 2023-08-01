@@ -12,7 +12,7 @@ torch.nan_to_num(input, nan=0.0, posinf=None, neginf=None, *, out=None)
 paddle.nan_to_num(x, nan=0.0, posinf=None, neginf=None, name=None)
 ```
 
-其中 Pytorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 ### 参数映射
 | PyTorch       | PaddlePaddle | 备注                                                   |
 | ------------- | ------------ | ------------------------------------------------------ |

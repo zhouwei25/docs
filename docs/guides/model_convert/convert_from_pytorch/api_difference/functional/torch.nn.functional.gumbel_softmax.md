@@ -12,7 +12,7 @@ torch.nn.functional.gumbel_softmax(logits, tau=1, hard=False, eps=1e-10, dim=- 1
 paddle.nn.functional.gumbel_softmax(x, temperature=1.0, hard=False, axis=- 1, name=None)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

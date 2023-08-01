@@ -12,7 +12,7 @@ torch.nn.TransformerEncoderLayer(d_model, nhead, dim_feedforward=2048, dropout=0
 paddle.nn.TransformerEncoderLayer(d_model, nhead, dim_feedforward, dropout=0.1, activation='relu', attn_dropout=None, act_dropout=None, normalize_before=False, weight_attr=None, bias_attr=None)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

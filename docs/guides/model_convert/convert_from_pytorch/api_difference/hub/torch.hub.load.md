@@ -28,7 +28,7 @@ paddle.hub.load(repo_dir,
 ### 参数映射
 | PyTorch       | PaddlePaddle | 备注                                                   |
 | ------------- | ------------ | ------------------------------------------------------ |
-| repo_or_dir   |repo_dir      |repo 地址，支持 git 地址形式和 local 地址，仅参数名不同。|
+| repo_or_dir   |repo_dir      |repo 地址，支持 git 地址形式和 local 地址，仅参数名不一致。|
 | model         | model        |模型的名字。|
 | *args         | -            |model 调用时的位置参数。暂无转写方式。|
 | source        |source        |指定 repo 托管的位置。|

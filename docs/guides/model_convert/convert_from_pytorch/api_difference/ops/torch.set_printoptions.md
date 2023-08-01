@@ -12,7 +12,7 @@ torch.set_printoptions(precision=None, threshold=None, edgeitems=None, linewidth
 paddle.set_printoptions(precision=None, threshold=None, edgeitems=None, sci_mode=None, linewidth=None)
 ```
 
-其中 Pytorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 

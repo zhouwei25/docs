@@ -1,4 +1,4 @@
-## torch.distributed.barrier
+## [ torch 参数更多 ] torch.distributed.barrier
 ### [torch.distributed.barrier](https://pytorch.org/docs/stable/distributed.html?highlight=barrier#torch.distributed.barrier)
 
 ```python
@@ -11,8 +11,10 @@ torch.distributed.barrier(group=None, async_op=False, device_ids=None)
 paddle.distributed.barrier(group=0)
 ```
 
-两者功能一致，torch 参数更多，具体差异如下：
-### 参数差异
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
+
+### 参数映射
+
 | PyTorch       | PaddlePaddle | 备注                                                   |
 | ------------- | ------------ | ------------------------------------------------------ |
 | group         | group        | 进程组编号                                 |

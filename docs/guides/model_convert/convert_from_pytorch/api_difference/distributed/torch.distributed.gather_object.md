@@ -12,7 +12,7 @@ torch.distributed.gather_object(obj, object_gather_list=None, dst=0, group=None)
 paddle.distributed.all_gather_object(object_list, obj, group=None)
 ```
 
-其中 PyTorch 相比 Paddle 支持更多其他参数，具体如下：
+Pytorch 相比 Paddle 支持更多其他参数，具体如下：
 
 ### 参数映射
 
