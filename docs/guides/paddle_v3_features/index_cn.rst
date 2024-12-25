@@ -17,6 +17,7 @@
 
 - `PIR 基本概念和开发 <paddle_ir_cn.html>`_ ：介绍了飞桨新一代中间表示（PIR）的设计和开发范式
 
+- `飞桨 AI 编程助手 <comate_paddle_cn.html>`_：介绍了在 Comate 里使用飞桨 AI 编程助手的方法，如何使用大模型加速飞桨编程
 
 
 ..  toctree::
@@ -28,3 +29,4 @@
     higher_order_ad_cn.md
     sot_cn.md
     paddle_ir_cn.md
+    comate_paddle_cn.md
